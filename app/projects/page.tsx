@@ -1,7 +1,10 @@
+interface mt {
+  title:string,
+  description:string,
+  imageUrl: string,
+}
 
-import Image from "next/image";
-
-const ProjectCard = ({ title, description, imageUrl }:any) => {
+const ProjectCard = ({ title, description, imageUrl }:mt) => {
   return (
     <div className="bg-white shadow-lg rounded-lg overflow-hidden">
       <div className="relative h-64 w-full">

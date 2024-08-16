@@ -2,7 +2,12 @@
 
 import React from "react";
 
-const SkillBar = ({ skill, percentage }:any) => {
+interface mtype {
+    skill:string
+    percentage:number
+}
+
+const SkillBar = ({ skill, percentage }:mtype) => {
   return (
     <div className="mb-4">
       <div className="flex justify-between mb-1">
