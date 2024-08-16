@@ -1,7 +1,7 @@
 
 import Image from "next/image";
 
-const ProjectCard = ({ title, description, imageUrl }) => {
+const ProjectCard = ({ title, description, imageUrl }:any) => {
   return (
     <div className="bg-white shadow-lg rounded-lg overflow-hidden">
       <div className="relative h-64 w-full">
