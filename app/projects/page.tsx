@@ -1,8 +1,5 @@
-interface mt {
-  title:string,
-  description:string,
-  imageUrl: string,
-}
+import { mt } from "../rout";
+
 
 const ProjectCard = ({ title, description, imageUrl }:mt) => {
   return (

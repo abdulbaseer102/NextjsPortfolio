@@ -1,11 +1,8 @@
 "use client";
 
 import React from "react";
+import { mtype } from "../rout";
 
-interface mtype {
-    skill:string
-    percentage:number
-}
 
 const SkillBar = ({ skill, percentage }:mtype) => {
   return (
